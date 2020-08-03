@@ -1,0 +1,176 @@
+* {
+  /* margin: 0; */
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px;
+  background-color: rgb(77, 71, 71);
+  text-align: center;
+  line-height: 8px;
+}
+
+header {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right-empty {
+  flex: .08;
+  text-align: center;
+  font-size: 32px;
+  
+}
+
+
+.menu-btn {
+  flex: .08;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13vh;
+  width: 7vw;
+  margin: 0 0 0 13px;
+  cursor: pointer;
+  /* border: 3px solid #fff; */
+  transform: rotate(90deg)
+  
+}
+
+.menu-btn__burger {
+  position: absolute;
+  width: 35px;
+  height: 6px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.menu-btn__burger::before, 
+.menu-btn__burger::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 6px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.menu-btn__burger::before {
+  transform: translate(-17px, -16px)
+} 
+.menu-btn__burger::after {
+  transform: translate(-17px, 16px)
+} 
+
+
+header h2 {
+font-size: 18px;
+}
+
+hr {
+height: 12px;
+width: 12px;
+border-radius: 50%;
+text-align: center;
+margin-top: 8px;
+margin-bottom: 12px;
+}
+/* past header, into main */
+
+.pic {
+  display: flex;
+}
+.pic img {
+  width: 100%;
+}
+
+body {
+background-color:slategrey
+}
+body > main > div > image > img{
+  text-align: center;
+}
+body main div {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+footer {
+  padding-top: 01px;
+  text-align: left;
+  padding-left: 2px;
+  border-left: 2px;
+  height: 160px;
+  background-color: rgb(77, 71, 71);
+  color: white;
+  line-height: 24px;
+  opacity: .6;
+}
+
+.contact {
+  text-align: center;
+  
+}
+
+
+
+a:link {color:white;}
+a:visited {color: white;}
+a:hover {color:darkgoldenrod;}
+a:active {color:brown;}
+
+/* -------------------------------------------------------- */
+/* projects.html */
+.header-container-proj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115px;
+  background-color: rgb(77, 71, 71);
+  text-align: center;
+  line-height: 8px;
+}
+
+.header-center-proj {
+  text-align: center;
+}
+
+.project-block-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+
+.project-individual {
+  margin: 5px;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+
+
+@media all and (max-width: 700px) {
+  .project-block-container {
+    flex-direction: column;
+  }
+}
