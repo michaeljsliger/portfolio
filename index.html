@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Michael Sliger Thinkful</title>
+  <title>Michael Sliger Portfolio</title>
  
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -13,19 +13,23 @@
   <div class="header-container">
     
     <div class="menu-btn left">
-      <div class="menu-btn__burger"></div>
+      <a href="#home" class="child">Home</a>
+      <a href="#about" class="child">About</a>
+      <!-- <div class="menu-btn__burger"></div> Old element, which was removed -->
     </div>
     <div class="header-center">
-    <header>
-      <div>
-        <h1> Michael Sliger </h1>
-        <h2> Software Enthusiast </h2>
-        <hr>
-      </div>
+      <header>
+        <div id="home">
+          <h1> Michael Sliger </h1>
+          <h2> Software Enthusiast </h2>
+          <hr>
+        </div>
       </div>
     </header>
     <div class="header-right-empty">
-      <a href="./projects.html" target="\_blank">Projects</a>
+      <!-- <a href="#contact">Contact</a> -->
+      <a href="#contact" class="child">Contact</a>
+      <a class="child" href="./projects.html" target="\_blank">Projects</a>
     </div>
   </div>
 <!-- end header begin main -->
@@ -39,7 +43,7 @@
       <p>
         My name is Michael. I live in Boulder, and I have lived in Colorado for my whole life. I live by a set of virtues, and strive to be a good human.
       </p>
-      <h3> About Me </h3>
+      <h3 id="about"> About Me </h3>
       <p>
       I am really interested in the problem-solving aspects of coding, and I delight in the endless possibilities and applications this skillset can have on a career and other lives. 
 
@@ -55,14 +59,20 @@
 
 <footer>
   <div class="parent">
-    <div class="child contact">
-      <h2> Contact Me! </h2>
+    <div class="child form">
+      <form>
+        <p>Placeholder for the form</p>
+      </form>
+    </div>
+    <div class="child contact" id="contact">
+    <h2> Contact Me! </h2>
       <ul> 
         <li><a href="https://github.com/michaeljsliger" target="\_blank">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/michael-sliger-02547914a/" target="\_blank">LinkedIn</a></li>
         <li> <a href="mailto:michaelj.sliger@gmail.com" target="\_blank">Email</a></li>
       </ul>
     </div>
+    
   </div>
 </footer>
 
