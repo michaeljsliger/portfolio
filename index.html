@@ -41,16 +41,20 @@
     <article>
       <h3> Intro </h3>
       <p>
-        My name is Michael. I live in Boulder, and I have lived in Colorado for my whole life. I live by a set of virtues, and strive to be a good human.
+        My name is Michael. I currently live in Boulder, Colorado. I live by a set of virtues, and strive to be a good human.
       </p>
       <h3 id="about"> About Me </h3>
       <p>
       I am really interested in the problem-solving aspects of coding, and I delight in the endless possibilities and applications this skillset can have on a career and other lives. 
 
-      I'm very interested in finding like-minded teams to work with to pursue a common goal.
+      I'm very interested in finding like-minded, friendly teams to work with to pursue a common goal.
       </p>
       <p>
-        Outside of software development, I pursue the discipline of parkour professionally, competing on international stages, when they're not all closed.
+        Outside of software development, I pursue the discipline of parkour professionally, competing internationally, while the world is pandemic-free.
+      </p>
+      <p>
+        I want to solve your modern problems with modern coding solutions, through the use of JavaScript. Also, I want to display these solutions and applications through HTML, CSS, and React projects.
+      </p>
     </article>
   </div>
 
@@ -60,8 +64,24 @@
 <footer>
   <div class="parent">
     <div class="child form">
-      <form>
-        <p>Placeholder for the form</p>
+      <form action="https://formspree.io/mnqgwovo" method="POST">
+        <fieldset>  
+          <legend>Send me a message!</legend>
+          <div>
+              <input type="text" name="name" placeholder="Name" required>
+          </div>
+          <div>
+              <input type="text" name="_replyto" placeholder="Email" required>
+          </div>
+          <div>
+              <input type="text" name="phonenumb" placeholder="contact number, 10 digits" pattern="\d{10}">
+          </div>
+          <div>
+              <textarea name="message" placeholder="message"></textarea>
+          </div>
+            <button type="submit">Send</button>
+        </fieldset>
+        <!--name, email, message-->
       </form>
     </div>
     <div class="child contact" id="contact">

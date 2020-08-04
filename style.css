@@ -153,7 +153,8 @@ ul {
 }
 
 footer {
-  height: 180px;
+  height: 275px;
+  
 }
 
 
@@ -191,6 +192,24 @@ a:active {color:aqua;}
   padding: 20px;
   border: 3px solid black;
 }
+
+fieldset {
+  padding: 8px 12px;
+  margin: 18px 18px 0 0;
+}
+
+legend {
+  color: #fff;
+}
+
+textarea {
+  width: 164px;
+  height: 80px;
+  margin-top: 8px;
+}
+
+
+
 
 
 
