@@ -59,37 +59,37 @@
 
 
 <footer>
-  <div class="parent">
-    <div class="child form">
-      <form action="https://formspree.io/mnqgwovo" method="POST">
-        <fieldset>  
-          <legend>Send me a message!</legend>
-          <div>
-              <input type="text" name="name" placeholder="Name" required>
-          </div>
-          <div>
-              <input type="text" name="_replyto" placeholder="Email" required>
-          </div>
-          <div>
-              <input type="text" name="phonenumb" placeholder="contact number, 10 digits" pattern="\d{10}">
-          </div>
-          <div>
-              <textarea name="message" placeholder="message"></textarea>
-          </div>
-            <button type="submit">Send</button>
-        </fieldset>
-        <!--name, email, message-->
-      </form>
-    </div>
-    <div class="child contact" id="contact">
-    <h2> Contact Me! </h2>
-      <ul> 
-        <li><a href="https://github.com/michaeljsliger" target="\_blank">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/michael-sliger-02547914a/" target="\_blank">LinkedIn</a></li>
-        <li> <a href="mailto:michaelj.sliger@gmail.com" target="\_blank">Email</a></li>
-      </ul>
-    </div>
-    
+  <div class="contact contact-child">
+    <form action="https://formspree.io/mnqgwovo" method="POST">
+      <fieldset>  
+        <legend>Send me a message!</legend>
+        <div>
+            <input type="text" name="name" placeholder="Name" required>
+        </div>
+        <div>
+            <input type="text" name="_replyto" placeholder="Email" required>
+        </div>
+        <div>
+            <input type="text" name="phonenumb" placeholder="contact number, 10 digits" pattern="\d{10}">
+        </div>
+        <div>
+            <textarea name="message" placeholder="message"></textarea>
+        </div>
+          <button type="submit">Send</button>
+      </fieldset>
+      <!--name, email, message-->
+    </form>
+
+  </div>
+  <div class="contact contact-child">
+    <h4>Contact me!</h4>
+    <ul> 
+      <li><a class="contact-link" href="https://github.com/michaeljsliger" target="\_blank">GitHub</a></li>
+      <li><a class="contact-link" href="https://www.linkedin.com/in/michael-sliger-02547914a/" target="\_blank">LinkedIn</a></li>
+      <li><a class="contact-link" href="mailto:michaelj.sliger@gmail.com" target="\_blank">Email</a></li>
+    </ul>
+  
+
   </div>
 </footer>
 
